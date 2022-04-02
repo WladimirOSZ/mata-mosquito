@@ -31,6 +31,7 @@ function start(){
         timeToSpawn=750;
     }
     document.addEventListener("click", gameClick);
+    document.addEventListener("mousedown", gameClick);
     document.getElementById("hud").style.display="block";
     hearts = 3;
     document.getElementById("game").innerHTML="";
